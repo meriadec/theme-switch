@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "parcel src/examples/index.html",
+    "build": "rm -rf dist && parcel build src/examples/index.html",
+    "lint": "eslint src --ext ts --ext tsx",
+    "publish": "bash publish.sh"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.4",
+    "react-native-web": "^0.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-react": "^7.13.0",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.17.0",
+    "typescript": "^3.4.5"
+  }
+}
